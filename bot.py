@@ -1,7 +1,7 @@
 import random
 from telethon import TelegramClient, events
 
-with open("cfg.txt", "r") as config:
+with open("config.txt", "r") as config:
     cfg = [line.rstrip() for line in config]
 
 client = TelegramClient('bot', cfg[0], cfg[1]).start(bot_token=cfg[2])

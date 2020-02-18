@@ -1,5 +1,5 @@
 version: "2.4"
 services:
-    dfb:
+    quotebot:
         build: .
         restart: unless-stopped
