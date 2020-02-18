@@ -1,2 +1,2 @@
 # telegram-quote-bot
-Telegram bot that replies you with somebody's quote.
+Dockerised telegram bot that replies you with somebody's quote.
